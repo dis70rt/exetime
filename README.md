@@ -25,24 +25,10 @@ More info on  [Python Docs](https://docs.python.org/3/library/time.html#time.pro
   >Use the `print()` for viewing the output
 
  ### Example-1:
-    import exetime
-    # Your Other
-    # Imports here
- 
-    # Write some code
- 
-    print(exetime.exetime())
+![](https://i.imgur.com/7W4AmV4.png)
  
  ### Example-2:
-    import exetime
-    import time
-    
-    sum = 0
-    for x in range(100000):
-        sum = sum + x
-    time.sleep(5)
-    
-    print(exetime.exetime())
+![](https://i.imgur.com/fRyNeQ7.png)
    
 **Note:** the delay of `time.sleep(5)` won't be included, since it only calculate the process time by CPU
 
