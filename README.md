@@ -1,6 +1,9 @@
 # exetime 3.7
 
 This module is for finding the execution time of a whole program
+### How to install
+``` $ pip install exetime```
+
 ## Contents:
 * [General Information](https://github.com/saikat0326/exetime#general-information)
 * [Instruction](https://github.com/saikat0326/exetime#instruction)
