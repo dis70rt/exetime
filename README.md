@@ -4,9 +4,9 @@ This module is for finding the execution time of a whole program
 ## Contents:
 * [General Information](https://github.com/saikat0326/exetime#general-information)
 * [Instruction](https://github.com/saikat0326/exetime#instruction)
-    * Example-1
-    * Example-2
-* [Developer and Credits](https://github.com/saikat0326/exetime#developer-and-credits)
+    * [Example-1](https://github.com/saikat0326/exetime#example-1)
+    * [Example-2](https://github.com/saikat0326/exetime#example-2)
+* [Developer and Credits](https://github.com/saikat0326/exetime#developer-and-credit)
 
 # General Information:
 It uses process_time() built-in function in ***python 3.7*** or above.
