@@ -16,9 +16,8 @@
 """
 
 '''
-Source Code:
 ----------------------------------------------------------
-Credit: It was created by Saikat ()
+Credit: It was created by Saikat (https://github.com/saikat0326)
 ----------------------------------------------------------
 '''
 
@@ -27,17 +26,14 @@ import time
 import decimal
 
 exeStart = 0.0
-def __init__():
-    global exeStart
-    exeStart =  decimal.Decimal(time.process_time_ns())
 
 def exetime():
     '''
     returns total process-time for profiling as seconds:\n
     sum of kernel and User-space CPU time
     '''
-    global exeStart
-    return (decimal.Decimal(time.process_time_ns()) - decimal.Decimal(exeStart))/(decimal.Decimal(10**9))
+
+    return (time.process_time_ns() - exeStart)/(10**9)
 
 def exetime_ms():
     '''
@@ -45,5 +41,9 @@ def exetime_ms():
 
     Returns total process-time for profiling as milliseconds (ms):\n  sum of kernel and User-space CPU time
     '''
-    global exeStart
-    return (decimal.Decimal(time.process_time_ns()) - decimal.Decimal(exeStart))/(decimal.Decimal(10**6))
+
+    return exetime()*1000
+
+if __name__ != '__main__':
+    exeStart =  decimal.Decimal(time.process_time_ns())
+
