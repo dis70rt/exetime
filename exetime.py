@@ -5,7 +5,7 @@
  More info on Docs : https://docs.python.org/3/library/time.html#time.process_time_ns
 
  Instruction:
-    As soon as you import the module __init__() gets excuted and it is the starting of the program,\n
+    As soon as you import the module __name__ != '__main__' gets excuted and it is the starting of the program,\n
     (Prefer to import exeTime above all imports)
 
     ---Write your code---
