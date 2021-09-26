@@ -1,4 +1,4 @@
-# exetime 3.7
+# exetime 3.8
 
 This module is for finding the execution time of a whole program
 ### How to install
@@ -44,5 +44,6 @@ This module was developed by Saikat
 External Credit:
 * [StackOverFlow Question](https://stackoverflow.com/a/1557584/12404738)
 * [Marc Maxmeister](https://stackoverflow.com/users/536538/marc-maxmeister)
+* [The Programmer's Hangout (Discord)](https://discord.gg/programming)
     
     
