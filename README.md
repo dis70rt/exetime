@@ -18,7 +18,7 @@ More info on  [Python Docs](https://docs.python.org/3/library/time.html#time.pro
 # Instruction:
      
    As soon as you import the module,
-   __init__() gets excuted and it is the starting of the program,
+   `__name__ != '__main'` gets excuted and it is the starting of the program,
    >(Prefer to import exeTime above all imports)
 
    ---Write your code---
