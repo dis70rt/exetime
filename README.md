@@ -12,7 +12,7 @@ This module is for finding the execution time of a whole program
 * [Developer and Credits](https://github.com/saikat0326/exetime#developer-and-credit)
 
 # General Information:
-It uses process_time() built-in function in ***python 3.7*** or above.
+It uses `process_time()` built-in function in ***python 3.7*** or above.
 More info on  [Python Docs](https://docs.python.org/3/library/time.html#time.process_time_ns)
 
 # Instruction:
